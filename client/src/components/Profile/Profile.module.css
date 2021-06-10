@@ -1,0 +1,174 @@
+.Profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+    transition: all 0.7ms ease;
+}
+
+.back, .edit, .close, .save {
+    position: absolute !important;
+}
+
+.back {
+    left: 15px !important;
+}
+
+.edit {
+    right: 15px !important;
+}
+
+.save {
+    right: 80px !important;
+    color: green !important;
+}
+
+.close {
+    right: 15px !important;
+    color: red !important;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputFile {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 999;
+    width: 200px;
+    height: 200px;
+}
+
+.hoverdiv {
+    margin: 30px auto 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.imgDiv {
+    position: absolute;
+    opacity: 1;
+}
+
+.hover_camera {
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    animation: anim1 0.5s ease-in-out;
+}
+
+@keyframes anim1 {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+.hoverdiv:hover .imgDiv {
+    opacity: 0.3;
+}
+
+.hoverdiv:hover .hover_camera {
+    display: block;
+    opacity: 0.7;
+}
+
+.preview {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.profile_img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 100%;
+    border: 3px solid grey;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.email {
+    font-size: 1.1rem;
+    margin: 3px 0;
+}
+
+.joined {
+    font-size: 0.9rem;
+}
+
+.divider {
+    width: 75%;
+}
+
+.bio {
+    font-style: italic;
+    color: rgb(100, 100, 100);
+    width: 75%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.posts_title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgba(255, 178, 77, 0.85);
+    border-radius: 5px;
+    width: 95%;
+    text-align: center;
+    color: white;
+    margin: 15px 0;
+}
+
+.postsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    margin: 1rem;
+}
+
+.inputs {
+    background-color: transparent;
+    outline: none;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+}
+
+.inputs::-webkit-input-placeholder {
+    color: grey;
+}
+
+.loadstate{
+    justify-content: center;
+    display: flex;    
+}
