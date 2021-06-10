@@ -1,6 +1,17 @@
 ![Athavani](https://socialify.git.ci/Tejas1510/Athavani/image?description=1&forks=1&issues=1&language=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark)
 
-## 📢 Join Discord channel for Discussion about the project : [Athavani](https://discord.gg/pQbVQqu7)
+<p align="center">
+<img src="https://img.shields.io/github/stars/Tejas1510/Athavani?style=for-the-badge" >
+<img src="https://img.shields.io/github/forks/Tejas1510/Athavani?style=for-the-badge" >  
+<img src="https://img.shields.io/github/issues-closed-raw/Tejas1510/Athavani?style=for-the-badge" >
+<img src="https://img.shields.io/github/issues-pr-closed-raw/Tejas1510/Athavani?style=for-the-badge" >
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/github/contributors/Tejas1510/Athavani?style=for-the-badge">
+</p>
+
+## 📢 Join Discord channel for discussion about the project : [Athavani](https://discord.gg/gEqSYzc5Yu)
 
 <p align="center">
   <img width="400" height="400" src = "https://github.com/Tejas1510/Athavani/blob/master/assets/athavani.gif"></img>
@@ -35,19 +46,23 @@ ability
 <img align="center" src = "https://github.com/Tejas1510/Athavani/blob/master/assets/Images/heroku.png"></img>
 </p>
 
-## A sneek peek into what we have here🙈 :
+## A sneak peeks into what we have here🙈 :
+
+<p align="center">
+  <img width="650" height="400" src = "https://github.com/Tejas1510/Athavani/blob/master/assets/Athavani-GIF.gif"></img>
+</p>  
 
 ### Creation of Memory
-<p align="center"><img src="https://github.com/Tejas1510/Athavani/blob/master/assets/creation.gif"></p>
+<p align="center"><img src="https://github.com/Tejas1510/Athavani/blob/master/assets/createMemory.gif" alt = "create memory"></p>
 
 ### Updation of Memory
-<p align="center"><img src="https://github.com/Tejas1510/Athavani/blob/master/assets/updation.gif"></p>
+<p align="center"><img src="https://github.com/Tejas1510/Athavani/blob/master/assets/updateMemory.gif" alt = "update memory"></p>
 
 ### Like a  Memory
-<p align="center"><img src="https://github.com/Tejas1510/Athavani/blob/master/assets/likePost.gif"></p>
+<p align="center"><img src="https://github.com/Tejas1510/Athavani/blob/master/assets/likeMemory.gif" alt = "like memory"></p>
 
 ### Delete a Memory
-<p align="center"><img src="https://github.com/Tejas1510/Athavani/blob/master/assets/Delete.gif"></p>
+<p align="center"><img src="https://github.com/Tejas1510/Athavani/blob/master/assets/deleteMemory.gif" alt = "delete memory"></p>
 
 
 ## ⭐ Getting Started
@@ -89,10 +104,16 @@ git clone https://github.com/<your-github-username>/Athavani
 ```bash
 cd Athavani
 ```
+**4.** Make a new branch 
 
-**4.** Make changes in source code.
+```bash
+#Make a new branch to avoid conflicts with the main branch of repository
+git checkout -b NewBranchName
+```
 
-**5.** Stage your changes and commit
+**5.** Make changes in source code.
+
+**6.** Stage your changes and commit
 
 ```bash
 #Add changes to Index
@@ -135,12 +156,20 @@ cd server
 npm install
 npm start 
 ```
+🛈**IMPORTANT**🛈
+
+To open the web app directly from CLI use:-
+```explorer "https://memoriestejastapas.netlify.app/"```
+
+if you have cloned this repo, then open git in this directory and use 
+``` ./script.sh ```
 
 ## 📢  Open Source Program
 
 ### This Project is a part of the following Open Source Program
 
 <img src ="https://github.com/Tejas1510/Athavani/blob/master/assets/Images/devscriptcode.png" alt ="Devscript Winter of Code"></img>
+<img src = "https://github.com/Tejas1510/Athavani/blob/master/assets/Images/gssoc.png" alt = "GirlScript Summer of Code"></img>
 
 ## ⭐ Issues:
 For major changes, you are welcomed to open an issue and discuss what you would like to contribute. Enhancements will be appreciated.
@@ -160,140 +189,12 @@ For major changes, you are welcomed to open an issue and discuss what you would 
 
 ## ✨ Contributors
 
-<table>
-<!--   ROW 1 -->
-    <tr>
-        <td align="center">
-            <a href="https://github.com/Tejas1510">
-            <img src="https://avatars3.githubusercontent.com/u/64543913?v=4" width="100px" alt=""/><br />
-            <sub><b>Tejas1510</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=Tejas1510">
-            👑 Author
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/kanishkaa24">
-            <img src="https://avatars0.githubusercontent.com/u/71253790?v=4" width="100px" alt=""/><br />
-            <sub><b>kanishkaa24</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=kanishkaa24">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/antaramunshi">
-            <img src="https://avatars0.githubusercontent.com/u/74422097?v=4" width="100px" alt=""/><br />
-            <sub><b>antaramunshi</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=antaramunshi">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/Khimit">
-            <img src="https://avatars2.githubusercontent.com/u/46605529?v=4" width="100px" alt=""/><br />
-            <sub><b>Khimit</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=Khimit">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/Harshit850">
-            <img src="https://avatars1.githubusercontent.com/u/53150301?v=4" width="100px" alt=""/><br />
-            <sub><b>Harshit850</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=Harshit850">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/sanjay270899">
-            <img src="https://avatars3.githubusercontent.com/u/43892590?v=4" width="100px" alt=""/><br />
-            <sub><b>sanjay270899</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=sanjay270899">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/sakshikhachane">
-            <img src="https://avatars1.githubusercontent.com/u/53635792?v=4" width="100px" alt=""/><br />
-            <sub><b>sakshikhachane</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=sakshikhachane">
-            💻
-            </a>
-        </td>
-    </tr>
-<!--      ROW 2 -->
-    <tr>
-        <td align="center">
-            <a href="https://github.com/shubhraagarwal">
-            <img src="https://avatars3.githubusercontent.com/u/67220475?v=4" width="100px" alt=""/><br />
-            <sub><b>shubhraagarwal</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=shubhraagarwal">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/Aniket31-coder">
-            <img src="https://avatars3.githubusercontent.com/u/55101835?v=4" width="100px" alt=""/><br />
-            <sub><b>Aniket31-coder</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=Aniket31-coder">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/Ashuto7h">
-            <img src="https://avatars1.githubusercontent.com/u/53266261?v=4" width="100px" alt=""/><br />
-            <sub><b>Ashuto7h</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=Ashuto7h">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/musavveer">
-            <img src="https://avatars2.githubusercontent.com/u/62888562?v=4" width="100px" alt=""/><br />
-            <sub><b>musavveer</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=musavveer">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/koolgax99">
-            <img src="https://avatars0.githubusercontent.com/u/55532999?v=4" width="100px" alt=""/><br />
-            <sub><b>koolgax99</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=koolgax99">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/SuNiL-Chau">
-            <img src="https://avatars0.githubusercontent.com/u/46418190?v=4" width="100px" alt=""/><br />
-            <sub><b>SuNiL-Chau</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=SuNiL-Chau">
-            💻
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/kenkirito">
-            <img src="https://avatars1.githubusercontent.com/u/68530218?v=4" width="100px" alt=""/><br />
-            <sub><b>kenkirito</b></sub>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Athavani/commits?author=kenkirito">
-            💻
-            </a>
-        </td>
-    </tr>
-</table>
+<a href="https://github.com/Tejas1510/Athavani/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Tejas1510/Athavani" />
+</a>
+
+
+
 
 ## 🔔 Credits
 
