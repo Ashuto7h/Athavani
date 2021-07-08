@@ -1,9 +1,8 @@
-/* eslint-disable no-unused-vars */
-import React, { useState, useEffect } from 'react';
-import * as api from '../../../api/index.js';
-import useStyles from './style';
-import { useHistory } from 'react-router-dom';
-import { toast } from 'react-toastify';
+import React, { useState, useEffect } from "react";
+import * as api from "../../../api/index.js";
+import useStyles from "./style";
+import { useHistory } from "react-router-dom";
+import { toast } from "react-toastify";
 import {
   Card,
   CardActions,
@@ -61,7 +60,6 @@ const Post = ({ post, setCurrentId, fromProfile, setOpenCreatePost }) => {
   const [creatorID, setCreatorID] = useState("");
   const [postImage, setpostImage] = useState()
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(async () => {
     try {
       const { data } = await api.verify({
@@ -132,90 +130,15 @@ const Post = ({ post, setCurrentId, fromProfile, setOpenCreatePost }) => {
     }
   };
 
-  return (
-    <>
-      <Card className={classes.card}>
-        <CardMedia className={classes.media} image={post.selectedFile} title={post.title} />
-        <div className={classes.overlay}>
-          <Typography variant="body2">{moment(post.createdAt).fromNow()}</Typography>
-        </div>
+  // function to close delete comment option
+  const handleCommentClose = () => {
+    setOpenDeleteComment(false);
+    setOpenDeleteCommentAdmin(false);
+  };
 
+  // toggling the content of post
+  const [contentToggle, setContentToggle] = useState(true);
 
-        <div className={classes.overlay2}>
-          <Button
-            style={{ color: "white" }}
-            size="small"
-            onClick={() => {
-              if (post.creator._id === creatorID) {
-                setCurrentId(post._id);
-              } else {
-                toast.warn("You can't edit other's post!");
-              }
-            }}
-          >
-            <MoreHorizIcon fontSize="default" />
-          </Button>
-        </div>
-        <div className={classes.details}>
-          <Typography variant="body2" color="textSecondary">
-            {post.tags.map((tag) => `#${tag} `)}
-          </Typography>
-        </div>
-        <Typography className={classes.title} variant="h5" gutterBottom>
-          {post.title}
-        </Typography>
-        <CardContent id="cardContent" className={classes.cardContent}>
-          <Typography gutterBottom>{post.message}</Typography>
-        </CardContent>
-        <Button size="small" color="primary" onClick={toggleContent} id='Arrow'>
-          <ArrowDownwardIcon />
-          Read more...
-        </Button>
-        <CardActions className={classes.cardActions}>
-          <Button
-            size="small"
-            color="primary"
-            onClick={() => {
-              dispatch(likePost(post._id, { userID: creatorID, bool: post.likes.includes(creatorID) }))
-            }}
-          >
-            <ThumbUpAltIcon fontSize="small" style={{ paddingRight: "5" }} />
-            {post.likes.length}
-          </Button>
-          <Button size="small" color="primary" onClick={() => {
-            dispatch(dislikePost(post._id, { userID: creatorID, bool: post.dislikes.includes(creatorID) }))
-          }}>
-            <ThumbDownAltIcon fontSize="small" style={{ paddingRight: "7" }} />
-            {post.dislikes.length}
-          </Button>
-          <Button color={`${post.favorites.includes(creatorID) ? 'secondary' : 'primary'}`}
-            onClick={() => {
-              dispatch(favoritePost(post._id, { userID: creatorID, bool: post.favorites.includes(creatorID) }))
-            }}
-          >
-            {post.favorites.includes(creatorID) ? <FavoriteIcon /> : <FavoriteBorderIcon />}
-          </Button>
-          <Button size="small" color="primary" onClick={handleOpen}>
-            <DeleteIcon fontSize="small" />
-          </Button>
-
-          <Modal
-            open={open}
-            onClose={handleClose}
-            aria-labelledby="simple-modal-title"
-            aria-describedby="simple-modal-description"
-          >
-            {body}
-          </Modal>
-        </CardActions>
-      </Card>
-      { isError &&
-        (
-          <Backdrop open={isError} onClick={handleClose} className={classes.overlayerror}>
-            <Alert severity="error" onClose={handleClose} className={classes.overlay2}> Incorrect Password, cannot delete memory</Alert>
-          </Backdrop>
-        )}
-=======
   // Component of delete option popup
   function DeleteBody({ name }) {
     // console.log(thename);
